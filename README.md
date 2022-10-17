@@ -54,17 +54,17 @@ This generates 8417 total clusters, of which 5677 are single copy orthologs (con
 
 `Rscript ~/git/supermatrix/plot_homolog_output_logs.R candida_v2.2022-10-15-155859.mh.log fasta_clusters.candida_v2.tab`
 
-![candida_v2.2022-10-15-155859.mh.p1.png](https://github.com/wrf/yeast-genomics/blob/master/images/candida_v2.2022-10-15-155859.mh.p1.png)
+![candida_v2.2022-10-15-155859.mh.p1.png](https://github.com/wrf/yeast-genomics/blob/main/images/candida_v2.2022-10-15-155859.mh.p1.png)
 
-![candida_v2.2022-10-15-155859.mh.p2.png](https://github.com/wrf/yeast-genomics/blob/master/images/candida_v2.2022-10-15-155859.mh.p2.png)
+![candida_v2.2022-10-15-155859.mh.p2.png](https://github.com/wrf/yeast-genomics/blob/main/images/candida_v2.2022-10-15-155859.mh.p2.png)
 
-![candida_v2.2022-10-15-155859.mh.p3.png](https://github.com/wrf/yeast-genomics/blob/master/images/candida_v2.2022-10-15-155859.mh.p3.png)
+![candida_v2.2022-10-15-155859.mh.p3.png](https://github.com/wrf/yeast-genomics/blob/main/images/candida_v2.2022-10-15-155859.mh.p3.png)
 
 ## known antifungal resistance ##
 
 Substitutions are compiled by [Berkow 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5546770/). The protein structure is [*Candida albicans* Lanosterol 14-alpha demethylase](https://www.uniprot.org/uniprotkb/P10613/entry), involved in production of sterols, and is inhibited by [fluconazole](https://en.wikipedia.org/wiki/Fluconazole). Known mutations are highlighted in red (darker color means more mutations at that site), and generally are located nearby the active site, though a few appear to be inside the active site or may affect binding to the heme or sterol. Some are quite far from the active site, and may involve folding, or possibly kinetics or changes to other conformational states.
 
-![5tz1_w_known_mutations.png](https://github.com/wrf/yeast-genomics/blob/master/images/5tz1_w_known_mutations.png)
+![5tz1_w_known_mutations.png](https://github.com/wrf/yeast-genomics/blob/main/images/5tz1_w_known_mutations.png)
 
 Coconut oil appears to have some effect, putatively due the high concentration of medium-chain fatty acids (mostly C10, see Figure 1 in [Gunsalus 2015](https://journals.asm.org/doi/10.1128/mSphere.00020-15), which apparently comes from USDA Nutritional Nutrient Database for Standard Reference (release 27, http://ndb.nal.usda.gov/). In the study by [Bergsson 2001](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC90807/), they propose that C10 fatty acids were "leaving the cytoplasm disorganized and shrunken because of a disrupted or disintegrated plasma membrane", suggesting that the main mechanism of action is by disruption of components in the cytoplasm, rather than some other metabolic effect (like inhibition of some enzyme).
 
