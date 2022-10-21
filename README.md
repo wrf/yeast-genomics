@@ -68,9 +68,18 @@ Substitutions are compiled by [Berkow 2017](https://www.ncbi.nlm.nih.gov/pmc/art
 
 Coconut oil appears to have some effect, putatively due the high concentration of medium-chain fatty acids (mostly C10, see Figure 1 in [Gunsalus 2015](https://journals.asm.org/doi/10.1128/mSphere.00020-15), which apparently comes from USDA Nutritional Nutrient Database for Standard Reference (release 27, http://ndb.nal.usda.gov/). In the study by [Bergsson 2001](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC90807/), they propose that C10 fatty acids were "leaving the cytoplasm disorganized and shrunken because of a disrupted or disintegrated plasma membrane", suggesting that the main mechanism of action is by disruption of components in the cytoplasm, rather than some other metabolic effect (like inhibition of some enzyme).
 
+## connection to gluten ##
 
+[Corouge 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0121776) had identified similar immunoreactive peptides between [Candida HWP1](https://www.uniprot.org/uniprotkb/P46593/entry) and [Wheat gamma-gliadin](https://www.uniprot.org/uniprotkb/P06659/entry), suggesting that infection with Candida may be connected to gluten intolerance. In particular, they noted the `FPQQPQQP` that plausibly could be converted to the HWP1 `(Y)PQQPQEP` in the presence of transglutaminase.
 
-
+```
+>sp|P46593|HWP1_CANAL Hyphal wall protein 1 OS=Candida albicans (strain SC5314 / ATCC MYA-2876) GN=HWP1 PE=1 SV=5
+MRLSTAQLIAIAYYMLSIGATVPQVDGQGET---EEALIQKRSYDYYQEPCDDYPQQQQQQEPCDYPQQQQQEEP-CDYPQQ---QPQEPCDYPQQPQEPCDYPQQPQEPCDYPQQPQEPCDNPPQPDVPCDNP----PQPDVPCDNPPQPDVPCDNPP--QPDVPCDNPPQPDQPDDNPPIPNIPTDWIPNIP-----------TDWIPDIPEKPTTPATTPNIPATTTTSESS------------SSSSSSSSSTTPKTSASTTPE---------SSVPATTP---NTSVPTTSSESTTPATSPESSVPVTSGSSILATTSESSSAPATTPNTSVPTTTTEAKSSSTPLTTTTEHDTTVVTVTSCSNSVCTESEVTTGVIVITSKDTIYTTYCPLTETTPVSTAPATETPTGTVSTSTEQSTTVITVTSCSESSCTESEVTTGVVVVTSEETVYTTFCPLTENTPGTDSTPEASIPPMETIPAGSEPSMPAGETSPAVPKSDVPATESAPVPEMTPAGSQPSIPAGETSPAVPKSDVSATESAPAPEMTPAGTETKPAAPKSSAPATEPSPVAPGTESAPAGPGASSSPKSSVLASETSPIAPGAETAPAGSSGAITIPESSAVVSTTEGAIPTTLESVPLMQPSANYSSVAPISTFEGAGNNMRLTFGAAIIGIAAFLI
+>sp|P08079|GDB0_WHEAT Gamma-gliadin (Fragment) OS=Triticum aestivum PE=1 SV=1
+--MKTLLILTILAMAITIGTANMQVDPSSQVQWPQQQPVPQPHQPFSQQPQQTFPQPQQT-----FPHQPQQQFPQPQQPQQQFLQPQQP--FPQQPQQP--YPQQPQQPFPQTQQPQQLFPQSQQPQQQFSQPQQQFPQPQQPQQSFPQQQPPFIQPSLQQQVNPCKN----FLLQQCKPVSLVSSLWSMIWPQSDCQVMRQQCCQQLAQIPQQLQCAAIHTIIHSIIMQQEQQEQQQGMHILLPLYQQQQVGQGTLVQGQGIIQ--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>sp|P06659|GDBB_WHEAT Gamma-gliadin B OS=Triticum aestivum PE=3 SV=1
+--MKTLLILTILAMAITIATANMQADPSGQVQWPQQQPFLQPHQPFSQQPQQIFPQPQQT-----FPHQPQQQFPQPQQPQQQFLQPRQP--FPQQPQQP--YPQQPQQPFPQTQQPQQPFPQSK-------QPQQPFPQPQQPQQSFPQQQPSLIQQSLQQQLNPCKN----FLLQQCKPVSLVSSLWSIILPPSDCQVMRQQCCQQLAQIPQQLQCAAIHSVVHSIIMQQEQQEQLQGVQILVPLSQQQQVGQGILVQGQGIIQPQQPAQLEVIRSLVLQTLPTMCNVYVPPYCSTIRAPFASIVASI-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGQ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
 
 
 
