@@ -66,9 +66,16 @@ Substitutions are compiled by [Berkow 2017](https://www.ncbi.nlm.nih.gov/pmc/art
 
 ![5tz1_w_known_mutations.png](https://github.com/wrf/yeast-genomics/blob/main/images/5tz1_w_known_mutations.png)
 
-Coconut oil appears to have some effect, putatively due the high concentration of medium-chain fatty acids (mostly C10, see Figure 1 in [Gunsalus 2015](https://journals.asm.org/doi/10.1128/mSphere.00020-15), which apparently comes from USDA Nutritional Nutrient Database for Standard Reference (release 27, http://ndb.nal.usda.gov/). In the study by [Bergsson 2001](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC90807/), they propose that C10 fatty acids were "leaving the cytoplasm disorganized and shrunken because of a disrupted or disintegrated plasma membrane", suggesting that the main mechanism of action is by disruption of components in the cytoplasm, rather than some other metabolic effect (like inhibition of some enzyme).
+Coconut oil appears to have some effect, putatively due the high concentration of medium-chain fatty acids (MCFAs, mostly C10, see Figure 1 in [Gunsalus 2015](https://journals.asm.org/doi/10.1128/mSphere.00020-15), which apparently comes from USDA Nutritional Nutrient Database for Standard Reference (release 27, http://ndb.nal.usda.gov/). In the study by [Bergsson 2001](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC90807/), they propose that C10 fatty acids were "leaving the cytoplasm disorganized and shrunken because of a disrupted or disintegrated plasma membrane", suggesting that the main mechanism of action is by disruption of components in the cytoplasm, rather than some other metabolic effect (like inhibition of some enzyme). MCFAs are proposed to have general antibiotic effects on organisms including *Helicobacter pylori* [Petschow 1996](https://doi.org/10.1128/AAC.40.2.302), [MRSA](), [Staphylococcus epidermidis](), [Pseudomonas aeruginosa](), and [Candida albicans]() [Rosenblatt 2015](https://doi.org/10.1128/AAC.04561-14).
 
 ## connection to gluten ##
+[Harnett 2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5418680/) examined the presence of *Candida* in patients with Coeliac disease by PCR, and found *Candida* in 33% of patients in the Coeliac group compared to 0% of the control group. Likewise, they also found a *Saccharomyces sp* in 33% of the Coeliac group compared to 10% of the control group, suggesting that conditions of the Coeliac gut may favor fungal colonization. The culture experiments on isolated fungi by [Auchtung 2018](https://doi.org/10.1128/mSphere.00092-18) resulted in the observation:
+
+> "Extremely low fungal abundance, the inability of fungi to grow under conditions mimicking the distal gut, and evidence from analysis of other public datasets further support the hypothesis that fungi do not routinely colonize the GI tracts of healthy adults." 
+
+As many gastrointestinal maladies overlap in symptoms and are not clearly defined, the notion of "healthy" adult gut needs a clearer definition.
+
+It was found by [Nobel 2021](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8691493/) that a gluten challenge diet did not change the microbiome in patients with Coeliac disease, however this study only examined prokaryote 16S by amplicon, so did not examine the role of fungi or other eukaryotes.
 
 [Corouge 2015](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0121776) had identified similar immunoreactive peptides between [Candida HWP1](https://www.uniprot.org/uniprotkb/P46593/entry) and [Wheat gamma-gliadin](https://www.uniprot.org/uniprotkb/P06659/entry), suggesting that infection with Candida may be connected to gluten intolerance. In particular, they noted the `FPQQPQQP` that plausibly could be converted to the HWP1 `(Y)PQQPQEP` in the presence of transglutaminase.
 
@@ -81,7 +88,9 @@ MRLSTAQLIAIAYYMLSIGATVPQVDGQGET---EEALIQKRSYDYYQEPCDDYPQQQQQQEPCDYPQQQQQEEP-CDYP
 --MKTLLILTILAMAITIATANMQADPSGQVQWPQQQPFLQPHQPFSQQPQQIFPQPQQT-----FPHQPQQQFPQPQQPQQQFLQPRQP--FPQQPQQP--YPQQPQQPFPQTQQPQQPFPQSK-------QPQQPFPQPQQPQQSFPQQQPSLIQQSLQQQLNPCKN----FLLQQCKPVSLVSSLWSIILPPSDCQVMRQQCCQQLAQIPQQLQCAAIHSVVHSIIMQQEQQEQLQGVQILVPLSQQQQVGQGILVQGQGIIQPQQPAQLEVIRSLVLQTLPTMCNVYVPPYCSTIRAPFASIVASI-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGQ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
+This same motif can be found in other proteins. The exact motif of `FPQQPQQP` that is also found in gluten is also found in both barley [Gamma-hordein-1](https://www.uniprot.org/uniprotkb/P17990/entry) and [C-hordein](https://www.uniprot.org/uniprotkb/P06472/entry), two seed storage proteins that appear to be homologs to gluten despite a different name. A similar motif to the HWP1 `YPQQPQQP` is found in [Debaryomyces AIM3](https://www.uniprot.org/uniprotkb/Q6BMF7/entry), also a membrane protein, suggesting that there could be cross reaction between fungi as well as plants.
 
+gluten contents over the years [Pronin 2020](https://pubs.acs.org/doi/10.1021/acs.jafc.0c02815)
 
 
 
